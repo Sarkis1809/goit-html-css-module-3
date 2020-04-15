@@ -1,8 +1,25 @@
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+.menu {
+  height: 12px;
+  width: 680px;
+  margin: 78px 113px;
+}
 .menu li {
   display: inline-block;
-  margin-right: 100px;
 }
-
+.lifestyle_menu {
+  margin-right: 124px;
+}
+.photodiary_menu {
+  margin-right: 105px;
+}
+.music_menu {
+  margin-right: 97px;
+}
 .menu li:last-child {
   margin-right: 0px;
 }
@@ -21,9 +38,7 @@ a {
 a:hover {
   color: aqua;
 }
-.menu {
-  margin: 78px 315px;
-}
+
 .left_post {
   width: 570px;
   height: 600px;
@@ -33,7 +48,7 @@ a:hover {
 
 .Rettangolo_4 {
   background-color: rgb(242, 242, 242);
-  margin-left: 150px;
+
   width: 420px;
   height: 280px;
 }
@@ -43,26 +58,26 @@ a:hover {
   color: rgb(180, 173, 158);
   text-transform: uppercase;
   line-height: 1.2;
-  margin: 23px 150px;
+  margin: 23px 0px;
   width: 63px;
   height: 11px;
 }
-.More_than_just_a_music_festival {
+.music_festival {
   font-size: 30px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
   line-height: 1.2;
-  margin: 60px 150px;
+  margin: 60px 0px;
   width: 407px;
   height: 30px;
 }
-.leftp1 {
+.music_festival_p {
   font-size: 14px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
   line-height: 1.714;
   text-align: left;
-  margin: 0px 150px;
+  margin: 0px 0px;
   width: 414px;
   height: 63px;
 }
@@ -70,7 +85,7 @@ a:hover {
   width: 570px;
   height: 600px;
 
-  margin: -600px 630px;
+  margin: -600px 480px;
 }
 
 .Rettangolo_4_copia {
@@ -79,7 +94,7 @@ a:hover {
   width: 420px;
   height: 280px;
 }
-.lifestyle2 {
+.lifestyle_right {
   font-size: 14px;
   font-family: "Ubuntu";
   color: rgb(180, 173, 158);
@@ -89,7 +104,7 @@ a:hover {
   width: 63px;
   height: 11px;
 }
-.Life_tastes_better_with_coffee {
+.coffee {
   font-size: 30px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
@@ -98,7 +113,7 @@ a:hover {
   width: 377px;
   height: 25px;
 }
-.rightp1 {
+.coffee_p {
   font-size: 14px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
@@ -108,7 +123,7 @@ a:hover {
   width: 414px;
   height: 63px;
 }
-.left_post2 {
+.dream {
   width: 570px;
   height: 600px;
 
@@ -117,53 +132,11 @@ a:hover {
 
 .Rettangolo_4_copia_2 {
   background-color: rgb(242, 242, 242);
-  margin-left: 150px;
+  margin-left: 0px;
   width: 420px;
   height: 280px;
 }
-.photodiaryl2 {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin: 23px 150px;
-  width: 63px;
-  height: 11px;
-}
-.American_dream {
-  font-size: 30px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
-  margin: 60px 150px;
-  width: 407px;
-  height: 30px;
-}
-.leftp2 {
-  font-size: 14px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.714;
-  text-align: left;
-  margin: 0px 150px;
-  width: 414px;
-  height: 63px;
-}
-.right_post2 {
-  width: 570px;
-  height: 600px;
-
-  margin: -600px 630px;
-}
-
-.Rettangolo_4_copia_3 {
-  background-color: rgb(242, 242, 242);
-  margin: 0px 0px;
-  width: 420px;
-  height: 280px;
-}
-.photodiaryr2 {
+.photodiary_dream {
   font-size: 14px;
   font-family: "Ubuntu";
   color: rgb(180, 173, 158);
@@ -173,7 +146,49 @@ a:hover {
   width: 63px;
   height: 11px;
 }
-.A_day_exploring_the_Alps {
+.American_dream {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin: 60px 0px;
+  width: 407px;
+  height: 30px;
+}
+.dream_p {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  margin: 0px 0px;
+  width: 414px;
+  height: 63px;
+}
+.alps {
+  width: 570px;
+  height: 600px;
+
+  margin: -600px 480px;
+}
+
+.Rettangolo_4_copia_3 {
+  background-color: rgb(242, 242, 242);
+  margin: 0px 0px;
+  width: 420px;
+  height: 280px;
+}
+.photodiary_alps {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 23px 0px;
+  width: 63px;
+  height: 11px;
+}
+.Alps {
   font-size: 30px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
@@ -182,7 +197,7 @@ a:hover {
   width: 377px;
   height: 25px;
 }
-.rightp2 {
+.alps_p {
   font-size: 14px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
@@ -192,7 +207,7 @@ a:hover {
   width: 414px;
   height: 63px;
 }
-.left_post3 {
+.songs {
   width: 570px;
   height: 600px;
 
@@ -201,53 +216,11 @@ a:hover {
 
 .Rettangolo_4_copia_4 {
   background-color: rgb(242, 242, 242);
-  margin-left: 150px;
+  margin-left: 0px;
   width: 420px;
   height: 280px;
 }
-.lifestylel3 {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin: 23px 150px;
-  width: 63px;
-  height: 11px;
-}
-.Top_10_song_for_running {
-  font-size: 30px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
-  margin: 60px 150px;
-  width: 407px;
-  height: 30px;
-}
-.leftp3 {
-  font-size: 14px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.714;
-  text-align: left;
-  margin: 0px 150px;
-  width: 414px;
-  height: 63px;
-}
-.right_post3 {
-  width: 570px;
-  height: 600px;
-
-  margin: -600px 630px;
-}
-
-.Rettangolo_4_copia_5 {
-  background-color: rgb(242, 242, 242);
-  margin: 0px 0px;
-  width: 420px;
-  height: 280px;
-}
-.lifestyler3 {
+.lifestyle_songs {
   font-size: 14px;
   font-family: "Ubuntu";
   color: rgb(180, 173, 158);
@@ -257,7 +230,49 @@ a:hover {
   width: 63px;
   height: 11px;
 }
-.Cold_winter_days {
+.Top_10_songs {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin: 60px 0px;
+  width: 407px;
+  height: 30px;
+}
+.songs_p {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  margin: 0px 0px;
+  width: 414px;
+  height: 63px;
+}
+.winter {
+  width: 570px;
+  height: 600px;
+
+  margin: -600px 480px;
+}
+
+.Rettangolo_4_copia_5 {
+  background-color: rgb(242, 242, 242);
+  margin: 0px 0px;
+  width: 420px;
+  height: 280px;
+}
+.lifestyle_winter {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 23px 0px;
+  width: 63px;
+  height: 11px;
+}
+.winter_days {
   font-size: 30px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
@@ -266,7 +281,7 @@ a:hover {
   width: 377px;
   height: 25px;
 }
-.rightp3 {
+.winter_p {
   font-size: 14px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
@@ -284,7 +299,7 @@ a:hover {
   font-weight: 400;
   width: 164px;
   height: 60px;
-  background-color: #ddddd7;
+  background-color: white;
   border: 1px solid #626262;
-  margin: 657px 507px;
+  margin: 658px 358px;
 }
