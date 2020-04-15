@@ -1,0 +1,290 @@
+.menu li {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.menu li:last-child {
+  margin-right: 0px;
+}
+a {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+  width: 88px;
+  height: 11px;
+
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
+}
+.menu {
+  margin: 78px 315px;
+}
+.left_post {
+  width: 570px;
+  height: 600px;
+
+  margin: 0px;
+}
+
+.Rettangolo_4 {
+  background-color: rgb(242, 242, 242);
+  margin-left: 150px;
+  width: 420px;
+  height: 280px;
+}
+.Lifestyle {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 23px 150px;
+  width: 63px;
+  height: 11px;
+}
+.More_than_just_a_music_festival {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin: 60px 150px;
+  width: 407px;
+  height: 30px;
+}
+.leftp1 {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  margin: 0px 150px;
+  width: 414px;
+  height: 63px;
+}
+.right_post {
+  width: 570px;
+  height: 600px;
+
+  margin: -600px 630px;
+}
+
+.Rettangolo_4_copia {
+  background-color: rgb(242, 242, 242);
+  margin: 0px 0px;
+  width: 420px;
+  height: 280px;
+}
+.lifestyle2 {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 23px 0px;
+  width: 63px;
+  height: 11px;
+}
+.Life_tastes_better_with_coffee {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin: 60px 0px;
+  width: 377px;
+  height: 25px;
+}
+.rightp1 {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  margin: 0px;
+  width: 414px;
+  height: 63px;
+}
+.left_post2 {
+  width: 570px;
+  height: 600px;
+
+  padding-top: 730px;
+}
+
+.Rettangolo_4_copia_2 {
+  background-color: rgb(242, 242, 242);
+  margin-left: 150px;
+  width: 420px;
+  height: 280px;
+}
+.photodiaryl2 {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 23px 150px;
+  width: 63px;
+  height: 11px;
+}
+.American_dream {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin: 60px 150px;
+  width: 407px;
+  height: 30px;
+}
+.leftp2 {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  margin: 0px 150px;
+  width: 414px;
+  height: 63px;
+}
+.right_post2 {
+  width: 570px;
+  height: 600px;
+
+  margin: -600px 630px;
+}
+
+.Rettangolo_4_copia_3 {
+  background-color: rgb(242, 242, 242);
+  margin: 0px 0px;
+  width: 420px;
+  height: 280px;
+}
+.photodiaryr2 {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 23px 0px;
+  width: 63px;
+  height: 11px;
+}
+.A_day_exploring_the_Alps {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin: 60px 0px;
+  width: 377px;
+  height: 25px;
+}
+.rightp2 {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  margin: 0px;
+  width: 414px;
+  height: 63px;
+}
+.left_post3 {
+  width: 570px;
+  height: 600px;
+
+  margin-top: 730px;
+}
+
+.Rettangolo_4_copia_4 {
+  background-color: rgb(242, 242, 242);
+  margin-left: 150px;
+  width: 420px;
+  height: 280px;
+}
+.lifestylel3 {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 23px 150px;
+  width: 63px;
+  height: 11px;
+}
+.Top_10_song_for_running {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin: 60px 150px;
+  width: 407px;
+  height: 30px;
+}
+.leftp3 {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  margin: 0px 150px;
+  width: 414px;
+  height: 63px;
+}
+.right_post3 {
+  width: 570px;
+  height: 600px;
+
+  margin: -600px 630px;
+}
+
+.Rettangolo_4_copia_5 {
+  background-color: rgb(242, 242, 242);
+  margin: 0px 0px;
+  width: 420px;
+  height: 280px;
+}
+.lifestyler3 {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 23px 0px;
+  width: 63px;
+  height: 11px;
+}
+.Cold_winter_days {
+  font-size: 30px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin: 60px 0px;
+  width: 377px;
+  height: 25px;
+}
+.rightp3 {
+  font-size: 14px;
+  font-family: "PlayfairDisplay";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  margin: 0px;
+  width: 414px;
+  height: 63px;
+}
+.load_more_button {
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  width: 164px;
+  height: 60px;
+  background-color: #ddddd7;
+  border: 1px solid #626262;
+  margin: 657px 507px;
+}
