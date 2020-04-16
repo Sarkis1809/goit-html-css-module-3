@@ -1,3 +1,6 @@
+section {
+  display: inline-block;
+}
 .container {
   margin: 0 auto;
   max-width: 900px;
@@ -38,259 +41,74 @@ a {
 a:hover {
   color: aqua;
 }
+/*MAIN*/
 
-.left_post {
-  width: 570px;
-  height: 600px;
-
-  margin: 0px;
-}
-
-.Rettangolo_4 {
+img {
   background-color: rgb(242, 242, 242);
-
+  margin-bottom: 18px;
   width: 420px;
   height: 280px;
 }
-.Lifestyle {
+h3 {
   font-size: 14px;
   font-family: "Ubuntu";
   color: rgb(180, 173, 158);
   text-transform: uppercase;
   line-height: 1.2;
-  margin: 23px 0px;
+  margin-bottom: 12px;
   width: 63px;
   height: 11px;
 }
-.music_festival {
+h2 {
   font-size: 30px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
   line-height: 1.2;
-  margin: 60px 0px;
+  margin-bottom: 44px;
   width: 407px;
   height: 30px;
 }
-.music_festival_p {
+p {
   font-size: 14px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
   line-height: 1.714;
   text-align: left;
-  margin: 0px 0px;
+  margin: 0px;
   width: 414px;
   height: 63px;
 }
-.right_post {
-  width: 570px;
-  height: 600px;
-
-  margin: -600px 480px;
-}
-
-.Rettangolo_4_copia {
-  background-color: rgb(242, 242, 242);
-  margin: 0px 0px;
+.concert {
   width: 420px;
-  height: 280px;
+
+  margin-bottom: 135px;
 }
-.lifestyle_right {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin: 23px 0px;
-  width: 63px;
-  height: 11px;
-}
+
 .coffee {
-  font-size: 30px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
-  margin: 60px 0px;
-  width: 377px;
-  height: 25px;
+  width: 420px;
+
+  margin-left: 56px;
 }
-.coffee_p {
-  font-size: 14px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.714;
-  text-align: left;
-  margin: 0px;
-  width: 414px;
-  height: 63px;
-}
+
 .dream {
-  width: 570px;
-  height: 600px;
-
-  padding-top: 730px;
-}
-
-.Rettangolo_4_copia_2 {
-  background-color: rgb(242, 242, 242);
-  margin-left: 0px;
   width: 420px;
-  height: 280px;
+  margin-bottom: 135px;
 }
-.photodiary_dream {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin: 23px 0px;
-  width: 63px;
-  height: 11px;
-}
-.American_dream {
-  font-size: 30px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
-  margin: 60px 0px;
-  width: 407px;
-  height: 30px;
-}
-.dream_p {
-  font-size: 14px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.714;
-  text-align: left;
-  margin: 0px 0px;
-  width: 414px;
-  height: 63px;
-}
+
 .alps {
-  width: 570px;
-  height: 600px;
-
-  margin: -600px 480px;
-}
-
-.Rettangolo_4_copia_3 {
-  background-color: rgb(242, 242, 242);
-  margin: 0px 0px;
   width: 420px;
-  height: 280px;
+  margin-left: 56px;
 }
-.photodiary_alps {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin: 23px 0px;
-  width: 63px;
-  height: 11px;
-}
-.Alps {
-  font-size: 30px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
-  margin: 60px 0px;
-  width: 377px;
-  height: 25px;
-}
-.alps_p {
-  font-size: 14px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.714;
-  text-align: left;
-  margin: 0px;
-  width: 414px;
-  height: 63px;
-}
+
 .songs {
-  width: 570px;
-  height: 600px;
-
-  margin-top: 730px;
-}
-
-.Rettangolo_4_copia_4 {
-  background-color: rgb(242, 242, 242);
-  margin-left: 0px;
   width: 420px;
-  height: 280px;
 }
-.lifestyle_songs {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin: 23px 0px;
-  width: 63px;
-  height: 11px;
-}
-.Top_10_songs {
-  font-size: 30px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
-  margin: 60px 0px;
-  width: 407px;
-  height: 30px;
-}
-.songs_p {
-  font-size: 14px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.714;
-  text-align: left;
-  margin: 0px 0px;
-  width: 414px;
-  height: 63px;
-}
+
 .winter {
-  width: 570px;
-  height: 600px;
-
-  margin: -600px 480px;
-}
-
-.Rettangolo_4_copia_5 {
-  background-color: rgb(242, 242, 242);
-  margin: 0px 0px;
   width: 420px;
-  height: 280px;
+  margin-left: 56px;
 }
-.lifestyle_winter {
-  font-size: 14px;
-  font-family: "Ubuntu";
-  color: rgb(180, 173, 158);
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin: 23px 0px;
-  width: 63px;
-  height: 11px;
-}
-.winter_days {
-  font-size: 30px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
-  margin: 60px 0px;
-  width: 377px;
-  height: 25px;
-}
-.winter_p {
-  font-size: 14px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.714;
-  text-align: left;
-  margin: 0px;
-  width: 414px;
-  height: 63px;
-}
+
 .load_more_button {
   font-size: 20px;
   line-height: 24px;
@@ -301,5 +119,5 @@ a:hover {
   height: 60px;
   background-color: white;
   border: 1px solid #626262;
-  margin: 658px 358px;
+  margin: 58px 358px;
 }
