@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu&display=swap");
 section {
   display: inline-block;
 }
@@ -14,16 +15,10 @@ section {
 .menu li {
   display: inline-block;
 }
-.lifestyle_menu {
-  margin-right: 124px;
+.par {
+  margin-right: 108px;
 }
-.photodiary_menu {
-  margin-right: 105px;
-}
-.music_menu {
-  margin-right: 97px;
-}
-.menu li:last-child {
+.par:last-child {
   margin-right: 0px;
 }
 a {
@@ -39,8 +34,9 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: aqua;
+  color: #03a9f4;
 }
+
 /*MAIN*/
 
 img {
@@ -49,9 +45,9 @@ img {
   width: 420px;
   height: 280px;
 }
-h3 {
+.subtitle {
   font-size: 14px;
-  font-family: "Ubuntu";
+  font-family: "Ubuntu", sans-serif;
   color: rgb(180, 173, 158);
   text-transform: uppercase;
   line-height: 1.2;
@@ -59,18 +55,18 @@ h3 {
   width: 63px;
   height: 11px;
 }
-h2 {
+.caption {
   font-size: 30px;
-  font-family: "PlayfairDisplay";
+  font-family: "PlayfairDisplay", serif;
   color: rgb(98, 98, 98);
   line-height: 1.2;
   margin-bottom: 44px;
   width: 407px;
   height: 30px;
 }
-p {
+.paragraph {
   font-size: 14px;
-  font-family: "PlayfairDisplay";
+  font-family: "PlayfairDisplay", sans-serif;
   color: rgb(98, 98, 98);
   line-height: 1.714;
   text-align: left;
@@ -78,46 +74,28 @@ p {
   width: 414px;
   height: 63px;
 }
-.concert {
-  width: 420px;
 
-  margin-bottom: 135px;
+
+.part:nth-last-child(odd) {
+  width: 420px;
+  margin: 0px 56px 135px 0px;
 }
 
-.coffee {
-  width: 420px;
-
-  margin-left: 56px;
+.part:nth-child(n+4){
+  margin-bottom: 0px;
 }
 
-.dream {
-  width: 420px;
-  margin-bottom: 135px;
-}
 
-.alps {
-  width: 420px;
-  margin-left: 56px;
-}
-
-.songs {
-  width: 420px;
-}
-
-.winter {
-  width: 420px;
-  margin-left: 56px;
-}
-
-.load_more_button {
+ .load_more_button {
   font-size: 20px;
   line-height: 24px;
   color: #626262;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   width: 164px;
   height: 60px;
   background-color: white;
   border: 1px solid #626262;
-  margin: 58px 358px;
-}
+  margin: 56px auto;
+  display: block;
+} 
