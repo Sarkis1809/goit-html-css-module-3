@@ -1,27 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu&display=swap");
-section {
-  display: inline-block;
-}
+
 .container {
   margin: 0 auto;
   max-width: 900px;
   width: 100%;
 }
 .menu {
-  height: 12px;
   width: 680px;
   margin: 78px 113px;
+  padding: 0px;
 }
 .menu li {
   display: inline-block;
 }
-.par {
+.menu-point {
   margin-right: 108px;
 }
-.par:last-child {
+.menu-point:last-child {
   margin-right: 0px;
 }
-a {
+.link {
   font-size: 14px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
@@ -33,15 +31,13 @@ a {
 
   text-decoration: none;
 }
-a:hover {
+.link:hover {
   color: #03a9f4;
 }
 
-/*MAIN*/
-
-img {
+.picture {
   background-color: rgb(242, 242, 242);
-  margin-bottom: 18px;
+  margin-bottom: 32px;
   width: 420px;
   height: 280px;
 }
@@ -51,7 +47,7 @@ img {
   color: rgb(180, 173, 158);
   text-transform: uppercase;
   line-height: 1.2;
-  margin-bottom: 12px;
+  margin: 0px 0px 37px 0px;
   width: 63px;
   height: 11px;
 }
@@ -60,7 +56,7 @@ img {
   font-family: "PlayfairDisplay", serif;
   color: rgb(98, 98, 98);
   line-height: 1.2;
-  margin-bottom: 44px;
+  margin: 0px 0px 44px 0px;
   width: 407px;
   height: 30px;
 }
@@ -75,18 +71,20 @@ img {
   height: 63px;
 }
 
+.part {
+  display: inline-block;
+}
 
 .part:nth-last-child(odd) {
   width: 420px;
   margin: 0px 56px 135px 0px;
 }
 
-.part:nth-child(n+4){
+.part:nth-child(n + 4) {
   margin-bottom: 0px;
 }
 
-
- .load_more_button {
+.load_more_button {
   font-size: 20px;
   line-height: 24px;
   color: #626262;
@@ -98,4 +96,4 @@ img {
   border: 1px solid #626262;
   margin: 56px auto;
   display: block;
-} 
+}
